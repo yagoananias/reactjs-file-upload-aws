@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './img/aws-logo.png'
 import React, { Component, component } from 'react';
 
 class App extends Component {
@@ -53,8 +54,9 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container">
-        <h2>File Upload System</h2>
+      <div className="container, center">
+        <img className="logo" src={logo} alt="AWS Logo" />
+        <h2 className="h2">File Upload System</h2>
         <h3>Upload with React.js and a Serverless API!</h3>
         <div>
           <input type="file" onChange={this.onFileChange} />
