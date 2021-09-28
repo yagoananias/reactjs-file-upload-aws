@@ -54,7 +54,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="container, center">
+      <div id="bg" className="container, center">
         <img className="logo" src={logo} alt="AWS Logo" />
         <h2 className="h2">File Upload System</h2>
         <h3>Upload with React.js and a Serverless API!</h3>

@@ -3,6 +3,7 @@
 }
 .container {
   text-align: center;
+  background-color: black;
 }
 
 .center {
@@ -20,4 +21,8 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: #d7e5f7;
 }
