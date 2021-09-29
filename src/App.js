@@ -1,6 +1,6 @@
 import './App.css';
 import logo from './img/aws-logo.png'
-import React, { Component, component } from 'react';
+import React, { Component } from 'react';
 
 class App extends Component {
   state = {
@@ -16,8 +16,8 @@ class App extends Component {
     const formData = new FormData();
     formData.append(
       "demo file",
-      this.state.selectFile,
-      this.state.selectFile.name
+      this.state.selectedFile,
+      this.state.selectedFile.name
     )
     //call api
     console.log(formData);
