@@ -30,9 +30,9 @@ class App extends Component {
       return (
       <div>
         <h2>File Details:</h2>
-        <p>File name:{this.state.selectedFile.name}</p>
-        <p>File type:{this.state.selectedFile.type}</p>
-        <p>Last modified:{" "}{this.state.selectedFile.lastModifiedDate.toDateString()}</p>
+        <p>File name: {this.state.selectedFile.name}</p>
+        <p>File type: {this.state.selectedFile.type}</p>
+        <p>Last modified: {" "}{this.state.selectedFile.lastModifiedDate.toDateString()}</p>
       </div>
       );
     } else if (this.state.fileUploadedSuccessfully) {
